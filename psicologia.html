@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Psicologia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Consultório de Psicologia</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#laudos">Geração de Laudos</a></li>
+                <li><a href="#relatorios">Relatórios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#artigos">Artigos e Recursos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#agendamentos">Agendamentos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Oferecemos apoio psicológico de qualidade para todas as idades. Nossa equipe é composta por profissionais qualificados e experientes, prontos para ajudar você a enfrentar os desafios da vida.</p>
+        <p>Nosso objetivo é promover a saúde mental e o bem-estar, proporcionando um espaço seguro e acolhedor para nossos pacientes.</p>
+    </section>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Psicoterapia Individual: Atendimento personalizado para questões emocionais e comportamentais.</li>
+            <li>Psicoterapia de Casal: Ajuda na resolução de conflitos e melhoria da comunicação.</li>
+            <li>Psicologia Infantil: Apoio psicológico para crianças e adolescentes.</li>
+            <li>Orientação Profissional: Auxílio na escolha de carreira e desenvolvimento profissional.</li>
+            <li>Grupos de Apoio: Encontros para compartilhar experiências e promover a saúde mental.</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="laudos">
+        <h2>Geração de Laudos</h2>
+        <form id="laudo-form">
+            <input type="text" name="paciente" placeholder="Nome do Paciente" required>
+            <input type="text" name="data" placeholder="Data" required>
+            <textarea name="observacoes" placeholder="Observações" required></textarea>
+            <button type="submit">Gerar Laudo</button>
+        </form>
+        <div id="laudo-output"></div>
+    </section>
+
+    <section id="relatorios">
+        <h2>Relatórios de Progresso</h2>
+        <p>Os relatórios de progresso são essenciais para acompanhar a evolução dos pacientes. Aqui estão alguns exemplos de relatórios que podem ser gerados:</p>
+        <ul>
+            <li><strong>Relatório de Evolução Mensal:</strong> Avaliação do progresso do paciente ao longo do mês, incluindo metas alcançadas e áreas a serem trabalhadas.</li>
+            <li><strong>Relatório de Sessões:</strong> Resumo das sessões realizadas, incluindo temas abordados e feedback do paciente.</li>
+            <li><strong>Relatório de Intervenções:</strong> Descrição das intervenções realizadas e suas respectivas eficácias.</li>
+        </ul>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos de Pacientes</h2>
+        <blockquote>
+            <p>"O atendimento foi fundamental para minha recuperação. A equipe é muito atenciosa e profissional!"</p>
+            <footer>- Maria S.</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Senti uma grande diferença na minha vida após as sessões. Recomendo a todos!"</p>
+            <footer>- João P.</footer 
+        </blockquote>
+        <blockquote>
+            <p>"O espaço é acolhedor e me senti à vontade para compartilhar meus sentimentos. Agradeço muito!"</p>
+            <footer>- Ana L.</footer>
+        </blockquote>
+    </section> 
+    <section id="artigos">
+        <h2>Artigos e Recursos</h2>
+        <p>Aqui você encontrará uma seleção de artigos e recursos úteis sobre saúde mental e bem-estar:</p>
+        <ul>
+            <li><a href="https://www.ansiedade.com.br" target="_blank">Como lidar com a ansiedade</a></li>
+            <li><a href="https://br.psicologia-online.com/como-aumentar-a-autoestima-685.html" target="_blank">Dicas para melhorar a autoestima</a></li>
+            <li><a href="https://maisvidalitoral.com.br/descobrindo-a-importancia-da-terapia-pode-transformar-sua-vida/" target="_blank">A importância da terapia</a></li>
+            <li><a href="https://www.anahana.com/pt/mental-health/stress-management" target="_blank">Estratégias para o gerenciamento do estresse</a></li>
+        </ul>
+        <h3>Recursos Adicionais</h3>
+        <p>Se você ou alguém que você conhece está passando por dificuldades, considere as seguintes opções:</p>
+        <ul>
+            <li><a href="https://www.cvv.org.br" target="_blank" class="button">Centro de Valorização da Vida</a> - Apoio emocional e prevenção do suicídio.</li>
+            <li><a href="https://www.psicologos.com.br" target="_blank" class="button">Encontre um Psicólogo</a> - Plataforma para encontrar profissionais de psicologia.</li>
+            <li><a href="https://www.saudemental.gov.br" target="_blank" class="button">Saúde Mental Brasil</a> - Informações e recursos sobre saúde mental no Brasil.</li>
+            <li><a href="https://www.mentalhealth.gov" target="_blank" class="button">MentalHealth.gov</a> - Recursos e informações sobre saúde mental (em inglês).</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <h3>1. O que é terapia?</h3>
+        <p>A terapia é um processo que ajuda as pessoas a entenderem e lidarem com suas emoções, comportamentos e desafios da vida.</p>
+        <h3>2. Quantas sessões eu precisarei?</h3>
+        <p>O número de sessões varia de acordo com as necessidades individuais de cada paciente.</p>
+        <h3>3. A terapia é confidencial?</h3>
+        <p>Sim, todas as informações compartilhadas durante as sessões são mantidas em sigilo.</p>
+    </section>
+
+    <section id="agendamentos">
+        <h2>Agendamentos</h2>
+        <p>Para agendar uma consulta, por favor, preencha o formulário abaixo:</p>
+        <form id="agendamento-form">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <input type="date" name="data" required>
+            <input type="time" name="hora" required>
+            <button type="submit">Agendar Consulta</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Consultório de Psicologia. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
